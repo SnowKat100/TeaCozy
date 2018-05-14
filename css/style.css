@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Universal Styles */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+}
+
+h2 {
+  padding-bottom: 15px;
+}
+
+h5 {
+  padding: 20px 0;
+}
+
+
+.title {
+  width: 100%;
+  background-color: rgba(0,0,0,0.9);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* Header */
+
+header {
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 1;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  padding-right: 10px;
+}
+
+nav span {
+  padding: 20px 10px;
+  display: inline-block;
+}
+
+/* Main Content Container */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+
+
+/* Hero */
+
+.hero {
+  background-image: url('../images/img-mission-background.jpg');
+  height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Featured */
+
+.featured {
+  width: 1000px;
+  padding-top: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery {
+  display: flex;
+  align-items: center;
+  width: 1000px;
+}
+
+.gallery.first-row {
+  justify-content: space-between;
+}
+
+.gallery.second-row {
+  justify-content: center;
+}
+
+.image-content img {
+  width: 300px;
+  height: 200px;
+  padding: 10px 0;
+}
+
+.image-content {
+  padding-bottom: 10px;
+}
+
+.image-content.bottom-left {
+  margin-right: 25px;
+}
+
+.image-content.bottom-right {
+  margin-left: 25px;
+}
+
+/* Locations */
+
+.locations {
+  background-image: url('../images/img-locations-background.jpg');
+  width: 100%;
+  height: 500px;
+  padding-top: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.locations .title {
+  background-color: transparent;
+}
+
+.addresses-container {
+  display: inline-flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  width: 980px;
+  display: flex;
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+/* Footer */
+
+footer {
+  width: 100%;
+}
+
+footer.info {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
+  padding: 20px 0 30px 20px;
+}
